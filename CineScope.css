@@ -1,0 +1,159 @@
+body {
+    font-family: sans-serif;
+    background-color: #156082; /* Cor de fundo aproximada */
+    margin: 0;
+  }
+
+  main {
+    margin-top: -80px; /* Ajuste o valor para controlar a distância */
+  }
+  
+  header {
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    background-color: #156082; /* Cor do cabeçalho aproximada */
+    color: white;
+    padding: 2em;
+    margin-top: 0.5px; /* Ajuste o valor conforme necessário */
+    padding-bottom: 0px; /* Adiciona 20px de espaçamento abaixo do conteúdo do header */
+    margin-right: 10px; /* Adiciona um espaçamento à direita do logotipo */
+
+  }
+  
+  .logo {
+    height: 80px; /* Define a largura máxima do logo (ajuste conforme necessário) */
+    
+  }
+  
+  .logotipo {
+    margin-right: 350px; /* Adiciona espaçamento à direita (opcional) */
+    display: flex; /* Permite alinhar os elementos lado a lado */
+    margin-left: auto; /* Empurra para a direita, ocupando o espaço disponível */
+    justify-content: flex-end; /* Alinha os itens à direita */
+    transform: scale(1.4);
+  }
+  
+  
+  h1 {
+    font-size: 50px;
+    margin: 16px;
+    margin-bottom: 50px; 
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    padding-right: 100px;
+
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+  }
+  
+
+
+  .features-container {
+    display: flex; /* Alinha os elementos lado a lado */
+    gap: 10px; /* Espaçamento entre os elementos */
+    background-color: #0F9ED5;
+    margin-left: 200px;
+    border: 3px solid #0F9ED5;
+    border-radius: 8px;
+    transform: scale(1.8); /* Aumenta o tamanho em 20% */
+
+}
+
+  .search-container {
+    display: flex; /* Permite alinhar os elementos lado a lado */
+    align-items: centre; /* Alinha verticalmente o texto e o botão */
+    background-color: white; /* Cor de fundo da caixa de pesquisa */
+    border-radius: 8px; /* Arredonda os cantos da caixa */
+    margin-left: auto; /* Empurra para a direita, ocupando o espaço disponível */
+    margin-right: 20px; /* Adiciona espaçamento à direita (opcional) */
+    padding: 5px; /* Adiciona um pouco de espaçamento interno */
+    transform: scale(2.0); /* Aumenta o tamanho em ##% */
+    flex-basis: 100px; /* Define a largura mínima da caixa de pesquisa */
+    grid-column: 2; /* Coloca a caixa de pesquisa na segunda coluna */
+    transform: scale(1.); /* Aumenta o tamanho em ##% */
+  }
+  
+  .search-container input[type="text"] {
+    flex-grow: 1; /* Faz o campo de texto ocupar o espaço disponível */
+    border: none; /* Remove a borda do campo de texto */
+    padding: 8px; /* Ajusta o espaçamento interno do campo de texto */
+    margin-right: 6px; /* Adiciona um pequeno espaço entre o campo e o botão */
+  }
+  
+  .search-container button {
+    background-color: #0F9ED5;
+    color: white;
+    border: none;
+    padding: 8px 12px; /* Ajusta o espaçamento do botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer;
+  }
+  
+  nav input[type="text"] {
+    padding: 0.5em;
+  }
+  
+  nav button {
+    background-color: #80ED99; /* Cor do botão de filtro aproximada */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 8px;
+
+  }
+  
+  main {
+    padding: 0px;
+  }
+  
+  .movie-card img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do card */
+    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+    object-fit: cover; /* Garante que a imagem cubra todo o card, mesmo que precise ser cortada */
+  }
+  
+  .podium-container {
+    display: flex;
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: flex-end; /* Alinha os elementos na parte inferior */
+    transform: scale(0.93); /* Aumenta o tamanho em ##% */
+
+  }
+  
+  .movie-card {
+    width: 450px;
+    background-color: #C7F9CC;
+    margin: 100px;
+    transform: scale(0.93); /* Aumenta o tamanho em ##% */
+
+  }
+  
+  .first-place {
+    width: 550px;
+    height: 650px; /* Filme do centro mais alto */
+    z-index: 2; /* Garante que o filme do centro fique por cima */
+    margin-bottom: +125px; /* Ajuste este valor para controlar a distância */
+    transform: scale(0.93); /* Aumenta o tamanho em ##% */
+  }
+  
+  .second-place {
+    height: 550px; /* Filme da esquerda um pouco mais baixo */
+    margin-right: -50px; /* Sobreposição para criar o efeito de pódio */
+    z-index: 1;
+  }
+  
+  .third-place {
+    height: 550px; /* Filme da direita um pouco mais baixo */
+    margin-left: -50px; /* Sobreposição para criar o efeito de pódio */
+    z-index: 1;
+  }
+  
+  
